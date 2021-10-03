@@ -1,0 +1,17 @@
+<h1>Hello from Rails!</h1>
+<p>
+  It is now <%= @time %>
+</p>
+
+<p>
+  <br>Experimenting with Ruby expressions:<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Addition: 1 + 2 = <%= 1 + 2 %><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;Concatenation: "cow" + "boy" = <%= "cow"+"boy" %><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;Time in one hour: <%= 1.hour.from_now.localtime %><br>
+</p>
+
+<p>
+  <br>Time to say
+  <%= link_to "Goodbye", say_goodbye_path %>
+</p>
