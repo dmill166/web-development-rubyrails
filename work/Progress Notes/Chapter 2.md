@@ -22,7 +22,13 @@ Lessons learned include:
   * Views found in < directory_name>/app/views/< controller name>/< .erb files for each requested action>
 
 ### Ruby Methods:
-* 
+* `@variable_name`: Can be used to store values at the controller level for reference in multiple views
+* `Time.now`: Used to gather current datetimeoffset
+* `link_to("displayed text", controllerName_actionName_path)`: Robust way to link webpages (used in views)
+* `<%= 1+2 %>`: Illustrating embedded Ruby numeric calculation inside of an HTMl (.erb) page
+* `<%= "cow" + "boy" %>`: Illustrating embedded Ruby string concatenation inside of an HTMl (.erb) page
+* `<%= 1.hour.from_now.localtime %>`: Illustrating embedded Ruby time calculation inside of an HTMl (.erb) page
+
 
 ### Additional notes:
 * In .erb files are primarily HTML; however, between `<%= %>` signifies Ruby code. An example was found on page 27:
